@@ -30,7 +30,8 @@
     "deploy": "tcb fn deploy twikoo --force",
     "lint": "eslint src/** --ignore-path .eslintignore",
     "docs:dev": "cd docs && yarn docs:dev",
-    "docs:build": "cd docs && yarn docs:build"
+    "docs:build": "cd docs && yarn docs:build",
+    "build": "[my-framework] build --output public"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
